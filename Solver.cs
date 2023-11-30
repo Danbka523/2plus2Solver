@@ -11,5 +11,7 @@ namespace _2plus2Solver
         public Solver() { }
 
         public int Plus(int a, int b) => a + b;
+
+        public void ratata 000
     }
 }
