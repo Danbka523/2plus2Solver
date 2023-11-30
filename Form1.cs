@@ -9,7 +9,11 @@ namespace _2plus2Solver
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show((2+2).ToString(), "ответ");
+            MessageBox.Show(Plus(2,2).ToString(), "ответ");
+        }
+
+        int Plus(int a, int b) { 
+            return a + b;
         }
     }
 }
