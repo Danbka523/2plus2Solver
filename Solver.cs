@@ -15,5 +15,7 @@ namespace _2plus2Solver
         public int Mult(int a, int b) => a * b;
 
         public int Minus(int a, int b) => a - b;
+
+        //adding smth to build
     }
 }
