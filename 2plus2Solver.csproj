@@ -9,4 +9,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="TestSolver\**" />
+    <EmbeddedResource Remove="TestSolver\**" />
+    <None Remove="TestSolver\**" />
+  </ItemGroup>
+
 </Project>
